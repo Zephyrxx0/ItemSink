@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.zephyrx0.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
