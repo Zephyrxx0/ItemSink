@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.zephyrx0'
-version = 'beta-2'
+version = 'beta-5.0'
 
 repositories {
     mavenCentral()
@@ -33,6 +33,6 @@ loom {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(23)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }

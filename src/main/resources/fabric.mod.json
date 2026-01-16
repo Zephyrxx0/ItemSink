@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "itemsink",
-	"version": "${version}",
-	"name": "itemsink",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "beta-4",
+	"name": "ItemSink",
+	"description": "A mod that makes item sink in water. Currently only supports ItemID `farmersdelight:rice_panicle`. Customizations for adding items will be added soon",
 	"authors": [
-		"Me!"
+		"Zephyrxx0"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,18 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.zephyrx0.mod.Itemsink"
-		],
-		"client": [
-			"com.zephyrx0.mod.ItemsinkClient"
+			"com.zephyrx0.mod.ItemSink"
 		]
 	},
 	"mixins": [
-		"itemsink.mixins.json",
-		{
-			"config": "itemsink.client.mixins.json",
-			"environment": "client"
-		}
+		"itemsink.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.1",

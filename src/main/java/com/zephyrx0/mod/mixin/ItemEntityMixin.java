@@ -13,7 +13,7 @@ public class ItemEntityMixin {
 
     // Cached target item ID (change later to farmersdelight:rice_panicles)
     private static final Identifier SINK_ITEM =
-            Identifier.of("minecraft", "apple");
+            Identifier.of("farmersdelight", "rice_panicle");
 
     @Inject(method = "tick", at = @At("TAIL"))
     private void itemsink$tick(CallbackInfo ci) {
