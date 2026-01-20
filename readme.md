@@ -35,3 +35,10 @@ To build the mod from source:
 1. Clone the repository.
 2. Run `gradlew build`.
 3. The built jar will be in `build/libs`.
+
+
+## Future updates
+
+1. Add items during run time to make items drown without exiting game.
+2. GUI for config
+3. Custom parameters
